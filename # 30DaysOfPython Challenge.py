@@ -1,4 +1,3 @@
-#  30DaysOfPython Challenge
 # Day 1
 # Introduction to Python
 
