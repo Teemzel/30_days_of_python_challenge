@@ -1,16 +1,16 @@
  # Day 2
  # Built in Function
 print("Hello World!")
-str(4)
-float(7)
+str('4')
+float(7.o)
 int(6)
 input("Enter Your Name")
 
 dir(str)
 
-min(5,8,2,6)
-max(5,7,9,1,4)
-sum([4,7,1,6,4])
+min(5,8,2,6)      # 2
+max(5,7,9,1,4)    # 9
+sum([4,7,1,6,4])  # 22
 
 #variable
 First_name = "Dejavu"
@@ -57,25 +57,25 @@ print(type(Person_info))    #dict
 
 num_one = 5
 num_two = 4
-total = sum((num_one, num_two))
+total = sum((num_one, num_two))   # 9
 print(total)
 
-diff = num_one - num_two
+diff = num_one - num_two          # 1
 print(diff)
 
-division = num_one / num_two
+division = num_one / num_two      # 1.25
 print(division)
 
-product = num_one * num_two
+product = num_one * num_two       # 20
 print(product)
 
-remainder = num_one % num_two
+remainder = num_one % num_two     # 1
 print(remainder)
 
-exp = num_one ** 2
+exp = num_one ** 2                # 25
 print(exp)
 
-floor_diivision = num_one // num_two
+floor_diivision = num_one // num_two # 1
 print(floor_diivision)
 
 print('total : ', total)
@@ -108,16 +108,17 @@ help(dir)
 #Casting
 
 # float to int
-num_int = int(4.5)
+num_int = int(4.5)       # 4
 print(num_int)
 
 # int to float
-num_float = float(82)
+num_float = float(82)    # 8.0
 print(num_float)
 
 # int to str
-num_str = str(32)
+num_str = str(32)        # '32'
 print(num_str)
 
 # str to list
-print(list(First_name))
+
+print(list(First_name))  # [d,e,j,a,v,u]
